@@ -1,11 +1,10 @@
 #include <iostream>
-
-#include "canvas.h"
+#include "waveheader.h"
 
 int main()
 {
-    Canvas oCanvas;
-    oCanvas.createCanvas();
+    WaveHeader oWaveHeader;
+    oWaveHeader.createWaveHeaderStruct();
 
     return 0;
 }
