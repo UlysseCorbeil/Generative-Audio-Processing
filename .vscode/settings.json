@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.xsl": "xsl",
+        "iostream": "cpp",
+        "cstdlib": "cpp"
+    }
+}
