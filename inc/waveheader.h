@@ -25,7 +25,9 @@ public:
         uint8_t Subchunk2ID[4];
         uint32_t Subchunk2Size;
     } Wav_Header;
-    void createWaveHeaderStruct();
+    int readWaveHeader();
+    int openFile(int argc, char *argv[]);
+    int getFileSize(FILE *inFile);
 };
 
 #endif

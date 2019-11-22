@@ -4,7 +4,6 @@
 int main()
 {
     WaveHeader oWaveHeader;
-    oWaveHeader.createWaveHeaderStruct();
 
     return 0;
 }
