@@ -1,8 +1,8 @@
 #include <iostream>
 #include "waveheader.h"
 
-int main()
-{
+int main() {
+
     WaveHeader oWaveHeader;
 
     return 0;

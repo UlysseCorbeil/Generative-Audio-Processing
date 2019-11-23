@@ -1,11 +1,9 @@
 #ifndef WAVEHEADER_H
 #define WAVEHEADER_H
 
-class WaveHeader
-{
+class WaveHeader {
 public:
-    typedef struct WAV_HEADER
-    {
+    typedef struct WAV_HEADER {
         /* RIFF Chunk Descriptor */
         uint8_t RIFF[4];
         uint32_t ChunkSize;
