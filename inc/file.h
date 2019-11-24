@@ -5,7 +5,7 @@
 class File {
 public:
     int getFileSize(FILE *inFile);
-    FILE * getInput(int argc, char const *argv);
+    FILE * getInput();
 };
 
 #endif

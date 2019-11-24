@@ -5,7 +5,7 @@
 #include "waveheader.h"
 #include "file.h"
 
-int WaveHeader::readWaveHeader(int argc, char const *argv) {
+int WaveHeader::readWaveHeader() {
 
     // declare structs
     Wav_Header wh;
@@ -15,7 +15,7 @@ int WaveHeader::readWaveHeader(int argc, char const *argv) {
     int headerSize = sizeof(Wav_Header),
         fileLength = 0;
 
-    FILE *wavFile = oFile.getInput(argc, argv);
+    FILE *wavFile = oFile.getInput();
 
     // fileLength is the number of bytes to offset from origin
     fileLength = oFile.getFileSize(wavFile);

@@ -14,21 +14,14 @@ int File::getFileSize(FILE *inFile) {
     return fileSize;
 }
 
-FILE * File::getInput(int argc, char const *argv) {
+FILE * File::getInput() {
     const char *filePath;
     std::string input;
 
-    // input
-    if (argc <= 1) {
-        std::cout << "Input wave file name: ";
-        std::cin >> input;
-        std::cin.get();
-        filePath = input.c_str();
-    }
-    else {
-        filePath = argv;
-        std::cout << "Input wave file name: " << filePath << std::endl;
-    }
+    std::cout << "Input wave file name: ";
+    std::cin >> input;
+    std::cin.get();
+    filePath = input.c_str();
 
     FILE *wavFile = fopen(filePath, "r");
     if (wavFile == nullptr) {

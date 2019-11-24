@@ -6,7 +6,7 @@ int main() {
 
     WaveHeader wh;
 
-    wh.readWaveHeader(1, "sample.wav");
+    wh.readWaveHeader();
 
     return 0;
 }
