@@ -1,12 +1,18 @@
+// std
 #include <iostream>
+
+// local
 #include "waveheader.h"
+#include "createcanvas.h"
 #include "file.h"
 
 int main() {
 
-    WaveHeader wh;
+    // class objects
+    // WaveHeader wh;
+    CreateCanvas cc;
 
-    wh.readWaveHeader();
+    cc.create();
 
     return 0;
 }
