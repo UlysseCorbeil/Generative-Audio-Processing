@@ -2,12 +2,13 @@
 Generative art through audio processing
 
 # Dependencies
-GLFW OpenGL Library for creating windows, contexts and surfaces, receiving input and events.
+## GLFW
+OpenGL Library for creating windows, contexts and surfaces, receiving input and events.
 
-    official site
+    ### Official site
     https://www.glfw.org/
 
-    repo
+    ### Repo
     https://github.com/glfw/glfw
 
 
