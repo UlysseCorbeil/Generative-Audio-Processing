@@ -5,11 +5,11 @@ Generative art through audio processing
 ## GLFW
 OpenGL Library for creating windows, contexts and surfaces, receiving input and events.
 
-    Official site
-    https://www.glfw.org/
+#### Official site
+https://www.glfw.org/
 
-    Repo
-    https://github.com/glfw/glfw
+#### Repo
+https://github.com/glfw/glfw
 
 
 # Legal
