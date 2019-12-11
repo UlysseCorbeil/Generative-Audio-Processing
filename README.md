@@ -1,6 +1,8 @@
 # Generative-Audio-Processing
 Generative art through audio processing
 
+# Still very much in progress (do not use)
+
 # Dependencies
 ## GLFW
 OpenGL Library for creating windows, contexts and surfaces, receiving input and events.
